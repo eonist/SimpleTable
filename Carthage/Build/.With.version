@@ -1,0 +1,10 @@
+{
+  "commitish" : "3b7491e346bbe735c8890f39499ead162649ff22",
+  "iOS" : [
+    {
+      "name" : "With",
+      "hash" : "44e24dec656c06a207880e414e8592c1be7af2bf36f23c5b8a8ecb120f80fdd8",
+      "swiftToolchainVersion" : "5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+    }
+  ]
+}

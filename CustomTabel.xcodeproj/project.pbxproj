@@ -8,15 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9DABEBF82271CB9600B0144B /* TextCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEBF72271CB9600B0144B /* TextCellData.swift */; };
+		9DABEBFC2271CCD200B0144B /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEBFB2271CCD200B0144B /* TextCell.swift */; };
+		9DABEBFF2271CD9000B0144B /* TextCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEBFE2271CD9000B0144B /* TextCell+Create.swift */; };
+		9DABEC012271CDBF00B0144B /* TextCell+Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC002271CDBF00B0144B /* TextCell+Constant.swift */; };
+		9DABEC042271D18D00B0144B /* InputTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC032271D18D00B0144B /* InputTextCell.swift */; };
+		9DABEC062271DCCD00B0144B /* LeftInputTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC052271DCCD00B0144B /* LeftInputTextCell.swift */; };
+		9DABEC0A2271DD3F00B0144B /* PasswordTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC092271DD3F00B0144B /* PasswordTextCell.swift */; };
+		9DABEC0C2271DD5E00B0144B /* DateInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC0B2271DD5E00B0144B /* DateInputCell.swift */; };
+		9DABEC0E2271DE8800B0144B /* LeftTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC0D2271DE8800B0144B /* LeftTextCell.swift */; };
+		9DABEC122271F82A00B0144B /* ParentGuideKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC112271F82A00B0144B /* ParentGuideKind.swift */; };
+		9DABEC182271FA7200B0144B /* ChildGuideKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC172271FA7200B0144B /* ChildGuideKind.swift */; };
 		9DABEC1C2272EFDB00B0144B /* CustomTableView+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC1B2272EFDB00B0144B /* CustomTableView+Create.swift */; };
 		9DABEC1F2272F01100B0144B /* Ruler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC1E2272F01100B0144B /* Ruler.swift */; };
-		F11CF2D022C76BC60022C28D /* TertiaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11CF2CD22C76BC60022C28D /* TertiaryCell.swift */; };
-		F11CF2D122C76BC60022C28D /* TertiaryCell+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11CF2CE22C76BC60022C28D /* TertiaryCell+Constants.swift */; };
-		F11CF2D222C76BC60022C28D /* TertiaryCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11CF2CF22C76BC60022C28D /* TertiaryCell+Create.swift */; };
-		F11CF2E822C76D500022C28D /* SectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11CF2E222C76D500022C28D /* SectionData.swift */; };
-		F11CF2E922C76D500022C28D /* CellDataKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11CF2E422C76D500022C28D /* CellDataKind.swift */; };
-		F11CF2EB22C76D500022C28D /* RecommendedItemCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11CF2E622C76D500022C28D /* RecommendedItemCellData.swift */; };
-		F11CF2EC22C76D500022C28D /* PlaylistItemCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11CF2E722C76D500022C28D /* PlaylistItemCellData.swift */; };
+		9DABEC2C227323DE00B0144B /* CellDataKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC2B227323DE00B0144B /* CellDataKind.swift */; };
+		9DABEC2F2277163C00B0144B /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC2E2277163C00B0144B /* DetailCell.swift */; };
+		9DABEC3322772C0300B0144B /* DateInputCell+DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC3222772C0300B0144B /* DateInputCell+DatePicker.swift */; };
+		9DABEC362277303E00B0144B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DABEC352277303E00B0144B /* UIImage+Extension.swift */; };
 		F1BA0333224A921800D1A209 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0332224A921800D1A209 /* AppDelegate.swift */; };
 		F1BA0335224A921800D1A209 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0334224A921800D1A209 /* MainVC.swift */; };
 		F1BA033A224A921D00D1A209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BA0339224A921D00D1A209 /* Assets.xcassets */; };
@@ -25,21 +32,10 @@
 		F1BA0348224A95F200D1A209 /* CustomTableView+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0347224A95F200D1A209 /* CustomTableView+Cell.swift */; };
 		F1BA034A224A962C00D1A209 /* CustomTableView+Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0349224A962C00D1A209 /* CustomTableView+Interaction.swift */; };
 		F1BA034D224A9B3F00D1A209 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA034C224A9B3F00D1A209 /* BaseCell.swift */; };
-		F1BA034F224A9BAB00D1A209 /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA034E224A9BAB00D1A209 /* MatchCell.swift */; };
 		F1BA0354224A9C6A00D1A209 /* Spatial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BA0352224A9C6900D1A209 /* Spatial.framework */; };
 		F1BA0355224A9C6A00D1A209 /* Spatial.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1BA0352224A9C6900D1A209 /* Spatial.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F1BA0356224A9C6A00D1A209 /* With.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BA0353224A9C6A00D1A209 /* With.framework */; };
 		F1BA0357224A9C6A00D1A209 /* With.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F1BA0353224A9C6A00D1A209 /* With.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F1BA035C224A9D6A00D1A209 /* CellDataKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA035A224A9D6A00D1A209 /* CellDataKind.swift */; };
-		F1BA035D224A9D6A00D1A209 /* MatchCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA035B224A9D6A00D1A209 /* MatchCellData.swift */; };
-		F1BA0360224AA52300D1A209 /* MatchCell+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA035F224AA52300D1A209 /* MatchCell+Create.swift */; };
-		F1BA0362224AA57700D1A209 /* MatchCell+Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0361224AA57700D1A209 /* MatchCell+Const.swift */; };
-		F1BA0368224AAEC200D1A209 /* LeagueCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0367224AAEC200D1A209 /* LeagueCellData.swift */; };
-		F1BA036B224AAFDF00D1A209 /* MatchHighlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA036A224AAFDF00D1A209 /* MatchHighlightCell.swift */; };
-		F1BA036E224AB00400D1A209 /* MatchTeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA036D224AB00400D1A209 /* MatchTeamCell.swift */; };
-		F1BA0371224AB07700D1A209 /* MatchScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0370224AB07700D1A209 /* MatchScoreCell.swift */; };
-		F1BA0373224AB4D500D1A209 /* MatchTeamCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0372224AB4D500D1A209 /* MatchTeamCellData.swift */; };
-		F1BA0375224AC55C00D1A209 /* MatchScoreCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BA0374224AC55C00D1A209 /* MatchScoreCellData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,15 +55,22 @@
 
 /* Begin PBXFileReference section */
 		9DABEBF72271CB9600B0144B /* TextCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCellData.swift; sourceTree = "<group>"; };
+		9DABEBFB2271CCD200B0144B /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		9DABEBFE2271CD9000B0144B /* TextCell+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextCell+Create.swift"; sourceTree = "<group>"; };
+		9DABEC002271CDBF00B0144B /* TextCell+Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextCell+Constant.swift"; sourceTree = "<group>"; };
+		9DABEC032271D18D00B0144B /* InputTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextCell.swift; sourceTree = "<group>"; };
+		9DABEC052271DCCD00B0144B /* LeftInputTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftInputTextCell.swift; sourceTree = "<group>"; };
+		9DABEC092271DD3F00B0144B /* PasswordTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextCell.swift; sourceTree = "<group>"; };
+		9DABEC0B2271DD5E00B0144B /* DateInputCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInputCell.swift; sourceTree = "<group>"; };
+		9DABEC0D2271DE8800B0144B /* LeftTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTextCell.swift; sourceTree = "<group>"; };
+		9DABEC112271F82A00B0144B /* ParentGuideKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentGuideKind.swift; sourceTree = "<group>"; };
+		9DABEC172271FA7200B0144B /* ChildGuideKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildGuideKind.swift; sourceTree = "<group>"; };
 		9DABEC1B2272EFDB00B0144B /* CustomTableView+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomTableView+Create.swift"; sourceTree = "<group>"; };
 		9DABEC1E2272F01100B0144B /* Ruler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ruler.swift; sourceTree = "<group>"; };
-		F11CF2CD22C76BC60022C28D /* TertiaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TertiaryCell.swift; sourceTree = "<group>"; };
-		F11CF2CE22C76BC60022C28D /* TertiaryCell+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TertiaryCell+Constants.swift"; sourceTree = "<group>"; };
-		F11CF2CF22C76BC60022C28D /* TertiaryCell+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TertiaryCell+Create.swift"; sourceTree = "<group>"; };
-		F11CF2E222C76D500022C28D /* SectionData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionData.swift; sourceTree = "<group>"; };
-		F11CF2E422C76D500022C28D /* CellDataKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDataKind.swift; sourceTree = "<group>"; };
-		F11CF2E622C76D500022C28D /* RecommendedItemCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedItemCellData.swift; sourceTree = "<group>"; };
-		F11CF2E722C76D500022C28D /* PlaylistItemCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistItemCellData.swift; sourceTree = "<group>"; };
+		9DABEC2B227323DE00B0144B /* CellDataKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDataKind.swift; sourceTree = "<group>"; };
+		9DABEC2E2277163C00B0144B /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		9DABEC3222772C0300B0144B /* DateInputCell+DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateInputCell+DatePicker.swift"; sourceTree = "<group>"; };
+		9DABEC352277303E00B0144B /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		F1BA032F224A921800D1A209 /* CustomTabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1BA0332224A921800D1A209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1BA0334224A921800D1A209 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -78,19 +81,8 @@
 		F1BA0347224A95F200D1A209 /* CustomTableView+Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomTableView+Cell.swift"; sourceTree = "<group>"; };
 		F1BA0349224A962C00D1A209 /* CustomTableView+Interaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomTableView+Interaction.swift"; sourceTree = "<group>"; };
 		F1BA034C224A9B3F00D1A209 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
-		F1BA034E224A9BAB00D1A209 /* MatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
 		F1BA0352224A9C6900D1A209 /* Spatial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spatial.framework; path = Carthage/Build/iOS/Spatial.framework; sourceTree = "<group>"; };
 		F1BA0353224A9C6A00D1A209 /* With.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = With.framework; path = Carthage/Build/iOS/With.framework; sourceTree = "<group>"; };
-		F1BA035A224A9D6A00D1A209 /* CellDataKind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDataKind.swift; sourceTree = "<group>"; };
-		F1BA035B224A9D6A00D1A209 /* MatchCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchCellData.swift; sourceTree = "<group>"; };
-		F1BA035F224AA52300D1A209 /* MatchCell+Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchCell+Create.swift"; sourceTree = "<group>"; };
-		F1BA0361224AA57700D1A209 /* MatchCell+Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MatchCell+Const.swift"; sourceTree = "<group>"; };
-		F1BA0367224AAEC200D1A209 /* LeagueCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueCellData.swift; sourceTree = "<group>"; };
-		F1BA036A224AAFDF00D1A209 /* MatchHighlightCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchHighlightCell.swift; sourceTree = "<group>"; };
-		F1BA036D224AB00400D1A209 /* MatchTeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTeamCell.swift; sourceTree = "<group>"; };
-		F1BA0370224AB07700D1A209 /* MatchScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScoreCell.swift; sourceTree = "<group>"; };
-		F1BA0372224AB4D500D1A209 /* MatchTeamCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTeamCellData.swift; sourceTree = "<group>"; };
-		F1BA0374224AC55C00D1A209 /* MatchScoreCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScoreCellData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,18 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9DABEBED2271CA8F00B0144B /* DEPRECATED */ = {
-			isa = PBXGroup;
-			children = (
-				F1BA036F224AB06600D1A209 /* matchscore */,
-				F1BA036C224AAFF200D1A209 /* matchteam */,
-				F1BA0369224AAFC800D1A209 /* matchhighlight */,
-				F1BA0359224A9D6A00D1A209 /* protocol */,
-				F1BA035E224AA51400D1A209 /* match */,
-			);
-			path = DEPRECATED;
-			sourceTree = "<group>";
-		};
 		9DABEBF92271CC7D00B0144B /* protocol */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,49 +106,60 @@
 			path = protocol;
 			sourceTree = "<group>";
 		};
-		9DABEC1D2272F00500B0144B /* util */ = {
+		9DABEBFD2271CD7B00B0144B /* textcell */ = {
+			isa = PBXGroup;
+			children = (
+				9DABEC0D2271DE8800B0144B /* LeftTextCell.swift */,
+				9DABEBFB2271CCD200B0144B /* TextCell.swift */,
+				9DABEBFE2271CD9000B0144B /* TextCell+Create.swift */,
+				9DABEC002271CDBF00B0144B /* TextCell+Constant.swift */,
+			);
+			path = textcell;
+			sourceTree = "<group>";
+		};
+		9DABEC022271D16900B0144B /* inputtextcell */ = {
+			isa = PBXGroup;
+			children = (
+				9DABEC032271D18D00B0144B /* InputTextCell.swift */,
+				9DABEC052271DCCD00B0144B /* LeftInputTextCell.swift */,
+				9DABEC092271DD3F00B0144B /* PasswordTextCell.swift */,
+			);
+			path = inputtextcell;
+			sourceTree = "<group>";
+		};
+		9DABEC102271F81500B0144B /* guide */ = {
 			isa = PBXGroup;
 			children = (
 				9DABEC1E2272F01100B0144B /* Ruler.swift */,
+				9DABEC172271FA7200B0144B /* ChildGuideKind.swift */,
+				9DABEC112271F82A00B0144B /* ParentGuideKind.swift */,
 			);
-			path = util;
+			path = guide;
 			sourceTree = "<group>";
 		};
-		F11CF2CC22C76BC60022C28D /* tertiary */ = {
+		9DABEC2D227715DB00B0144B /* detailcell */ = {
 			isa = PBXGroup;
 			children = (
-				F11CF2CD22C76BC60022C28D /* TertiaryCell.swift */,
-				F11CF2CE22C76BC60022C28D /* TertiaryCell+Constants.swift */,
-				F11CF2CF22C76BC60022C28D /* TertiaryCell+Create.swift */,
+				9DABEC2E2277163C00B0144B /* DetailCell.swift */,
 			);
-			path = tertiary;
+			path = detailcell;
 			sourceTree = "<group>";
 		};
-		F11CF2E022C76D500022C28D /* model */ = {
+		9DABEC3122772BE700B0144B /* dateinputcell */ = {
 			isa = PBXGroup;
 			children = (
-				F11CF2E122C76D500022C28D /* section */,
-				F11CF2E322C76D500022C28D /* cell */,
+				9DABEC0B2271DD5E00B0144B /* DateInputCell.swift */,
+				9DABEC3222772C0300B0144B /* DateInputCell+DatePicker.swift */,
 			);
-			path = model;
+			path = dateinputcell;
 			sourceTree = "<group>";
 		};
-		F11CF2E122C76D500022C28D /* section */ = {
+		9DABEC3422772F6B00B0144B /* common */ = {
 			isa = PBXGroup;
 			children = (
-				F11CF2E222C76D500022C28D /* SectionData.swift */,
+				9DABEC352277303E00B0144B /* UIImage+Extension.swift */,
 			);
-			path = section;
-			sourceTree = "<group>";
-		};
-		F11CF2E322C76D500022C28D /* cell */ = {
-			isa = PBXGroup;
-			children = (
-				F11CF2E422C76D500022C28D /* CellDataKind.swift */,
-				F11CF2E622C76D500022C28D /* RecommendedItemCellData.swift */,
-				F11CF2E722C76D500022C28D /* PlaylistItemCellData.swift */,
-			);
-			path = cell;
+			path = common;
 			sourceTree = "<group>";
 		};
 		F1BA0326224A921800D1A209 = {
@@ -194,6 +185,7 @@
 			children = (
 				F1BA0332224A921800D1A209 /* AppDelegate.swift */,
 				F1BA0334224A921800D1A209 /* MainVC.swift */,
+				9DABEC3422772F6B00B0144B /* common */,
 				F1BA0344224A95AC00D1A209 /* table */,
 				F1BA0339224A921D00D1A209 /* Assets.xcassets */,
 				F1BA033B224A921D00D1A209 /* LaunchScreen.storyboard */,
@@ -205,13 +197,12 @@
 		F1BA0344224A95AC00D1A209 /* table */ = {
 			isa = PBXGroup;
 			children = (
-				F11CF2E022C76D500022C28D /* model */,
+				9DABEC102271F81500B0144B /* guide */,
 				F1BA034B224A9B2E00D1A209 /* cell */,
 				F1BA0345224A95BF00D1A209 /* CustomTableView.swift */,
 				9DABEC1B2272EFDB00B0144B /* CustomTableView+Create.swift */,
 				F1BA0349224A962C00D1A209 /* CustomTableView+Interaction.swift */,
 				F1BA0347224A95F200D1A209 /* CustomTableView+Cell.swift */,
-				9DABEC1D2272F00500B0144B /* util */,
 			);
 			path = table;
 			sourceTree = "<group>";
@@ -219,58 +210,15 @@
 		F1BA034B224A9B2E00D1A209 /* cell */ = {
 			isa = PBXGroup;
 			children = (
-				F11CF2CC22C76BC60022C28D /* tertiary */,
 				9DABEBF92271CC7D00B0144B /* protocol */,
+				9DABEC3122772BE700B0144B /* dateinputcell */,
+				9DABEC022271D16900B0144B /* inputtextcell */,
+				9DABEBFD2271CD7B00B0144B /* textcell */,
+				9DABEC2D227715DB00B0144B /* detailcell */,
 				F1BA034C224A9B3F00D1A209 /* BaseCell.swift */,
-				9DABEBED2271CA8F00B0144B /* DEPRECATED */,
+				9DABEC2B227323DE00B0144B /* CellDataKind.swift */,
 			);
 			path = cell;
-			sourceTree = "<group>";
-		};
-		F1BA0359224A9D6A00D1A209 /* protocol */ = {
-			isa = PBXGroup;
-			children = (
-				F1BA035A224A9D6A00D1A209 /* CellDataKind.swift */,
-				F1BA035B224A9D6A00D1A209 /* MatchCellData.swift */,
-				F1BA0367224AAEC200D1A209 /* LeagueCellData.swift */,
-				F1BA0372224AB4D500D1A209 /* MatchTeamCellData.swift */,
-				F1BA0374224AC55C00D1A209 /* MatchScoreCellData.swift */,
-			);
-			path = protocol;
-			sourceTree = "<group>";
-		};
-		F1BA035E224AA51400D1A209 /* match */ = {
-			isa = PBXGroup;
-			children = (
-				F1BA034E224A9BAB00D1A209 /* MatchCell.swift */,
-				F1BA035F224AA52300D1A209 /* MatchCell+Create.swift */,
-				F1BA0361224AA57700D1A209 /* MatchCell+Const.swift */,
-			);
-			path = match;
-			sourceTree = "<group>";
-		};
-		F1BA0369224AAFC800D1A209 /* matchhighlight */ = {
-			isa = PBXGroup;
-			children = (
-				F1BA036A224AAFDF00D1A209 /* MatchHighlightCell.swift */,
-			);
-			path = matchhighlight;
-			sourceTree = "<group>";
-		};
-		F1BA036C224AAFF200D1A209 /* matchteam */ = {
-			isa = PBXGroup;
-			children = (
-				F1BA036D224AB00400D1A209 /* MatchTeamCell.swift */,
-			);
-			path = matchteam;
-			sourceTree = "<group>";
-		};
-		F1BA036F224AB06600D1A209 /* matchscore */ = {
-			isa = PBXGroup;
-			children = (
-				F1BA0370224AB07700D1A209 /* MatchScoreCell.swift */,
-			);
-			path = matchscore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +232,7 @@
 				F1BA032C224A921800D1A209 /* Frameworks */,
 				F1BA032D224A921800D1A209 /* Resources */,
 				F1BA0358224A9C6A00D1A209 /* Embed Frameworks */,
+				9DABEC30227729B000B0144B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -339,6 +288,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9DABEC30227729B000B0144B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1BA032B224A921800D1A209 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -346,31 +315,27 @@
 			files = (
 				F1BA0346224A95BF00D1A209 /* CustomTableView.swift in Sources */,
 				F1BA0335224A921800D1A209 /* MainVC.swift in Sources */,
-				F1BA0371224AB07700D1A209 /* MatchScoreCell.swift in Sources */,
+				9DABEBFF2271CD9000B0144B /* TextCell+Create.swift in Sources */,
+				9DABEC0E2271DE8800B0144B /* LeftTextCell.swift in Sources */,
 				F1BA0348224A95F200D1A209 /* CustomTableView+Cell.swift in Sources */,
-				F1BA036B224AAFDF00D1A209 /* MatchHighlightCell.swift in Sources */,
-				F11CF2D222C76BC60022C28D /* TertiaryCell+Create.swift in Sources */,
+				9DABEC2F2277163C00B0144B /* DetailCell.swift in Sources */,
+				9DABEC012271CDBF00B0144B /* TextCell+Constant.swift in Sources */,
 				F1BA034A224A962C00D1A209 /* CustomTableView+Interaction.swift in Sources */,
-				F11CF2D022C76BC60022C28D /* TertiaryCell.swift in Sources */,
 				9DABEC1C2272EFDB00B0144B /* CustomTableView+Create.swift in Sources */,
-				F11CF2E922C76D500022C28D /* CellDataKind.swift in Sources */,
+				9DABEC362277303E00B0144B /* UIImage+Extension.swift in Sources */,
+				9DABEBFC2271CCD200B0144B /* TextCell.swift in Sources */,
+				9DABEC0A2271DD3F00B0144B /* PasswordTextCell.swift in Sources */,
 				F1BA034D224A9B3F00D1A209 /* BaseCell.swift in Sources */,
-				F1BA036E224AB00400D1A209 /* MatchTeamCell.swift in Sources */,
-				F11CF2E822C76D500022C28D /* SectionData.swift in Sources */,
-				F11CF2D122C76BC60022C28D /* TertiaryCell+Constants.swift in Sources */,
+				9DABEC042271D18D00B0144B /* InputTextCell.swift in Sources */,
 				9DABEC1F2272F01100B0144B /* Ruler.swift in Sources */,
-				F1BA034F224A9BAB00D1A209 /* MatchCell.swift in Sources */,
-				F11CF2EC22C76D500022C28D /* PlaylistItemCellData.swift in Sources */,
-				F1BA0375224AC55C00D1A209 /* MatchScoreCellData.swift in Sources */,
-				F1BA0360224AA52300D1A209 /* MatchCell+Create.swift in Sources */,
-				F1BA0373224AB4D500D1A209 /* MatchTeamCellData.swift in Sources */,
-				F1BA035C224A9D6A00D1A209 /* CellDataKind.swift in Sources */,
-				F1BA0368224AAEC200D1A209 /* LeagueCellData.swift in Sources */,
-				F1BA035D224A9D6A00D1A209 /* MatchCellData.swift in Sources */,
+				9DABEC122271F82A00B0144B /* ParentGuideKind.swift in Sources */,
+				9DABEC2C227323DE00B0144B /* CellDataKind.swift in Sources */,
+				9DABEC062271DCCD00B0144B /* LeftInputTextCell.swift in Sources */,
 				9DABEBF82271CB9600B0144B /* TextCellData.swift in Sources */,
-				F1BA0362224AA57700D1A209 /* MatchCell+Const.swift in Sources */,
+				9DABEC0C2271DD5E00B0144B /* DateInputCell.swift in Sources */,
 				F1BA0333224A921800D1A209 /* AppDelegate.swift in Sources */,
-				F11CF2EB22C76D500022C28D /* RecommendedItemCellData.swift in Sources */,
+				9DABEC3322772C0300B0144B /* DateInputCell+DatePicker.swift in Sources */,
+				9DABEC182271FA7200B0144B /* ChildGuideKind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +481,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CustomTabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -537,6 +503,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = CustomTabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,11 +1,18 @@
 import UIKit
 
-class MainVC :UIViewController{
+class MainVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view = CustomTableView.init(rowData: [("Descripton: ",""),("Descripton: ",""), ("Descripton: ",""), ("Current password: ","") ,("Age: ","")], frame: .zero, style: .grouped)
-        view.backgroundColor = .gray
+        let rowData = [("Descripton: ", ""),
+                       ("Descripton: ", ""),
+                       ("Descripton: ", ""),
+                       ("Current password: ", ""),
+                       ("Age: ", ""),
+                       ("Username: ", "Tom"),
+                       ("Facebook: ", "Not connected")]
+        self.view = CustomTableView(rowData: rowData, frame: .zero, style: .grouped)
+        view.backgroundColor = .black
     }
-    override var prefersStatusBarHidden: Bool {return true}
+    override var prefersStatusBarHidden: Bool { return true }
 }
 //class MainView:UIView{}

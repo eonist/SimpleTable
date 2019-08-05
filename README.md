@@ -1,5 +1,7 @@
+[![SwiftLint Sindre](https://img.shields.io/badge/SwiftLint-Sindre-hotpink.svg)](https://github.com/sindresorhus/swiftlint-sindre)
+
 # CustomUITable
-Prototype for using UITable in FlowLayout
+Aligns text to a guide based on the widest description text
 
 
-<img width="487" alt="img" src="Screenshot 2019-04-04 at 15.09.56.png?raw=true">
+<img width="487" alt="img" src="Screenshot 2019-06-16 at 12.04.49.png?raw=true">

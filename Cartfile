@@ -1,15 +1,2 @@
-## Sugar
-github "eonist/NetworkSugar" "master"
-github "eonist/JsonSugar" "master"
-github "eonist/UserDefaultSugar" "master"
-github "eonist/FileSugar" "master"
-
-## Modules
 github "eonist/Spatial" "master"
 github "eonist/With" "master"
-github "eonist/ReusableCell" "master"
-github "eonist/Iterator" "master"
-
-## Testing
-github "eonist/UITestSugar" "master"
-github "eonist/TestRunner" "master"

@@ -60,18 +60,18 @@ extension TableView {
  */
 class CustomCell: BaseCell {}
 class AnotherCustomCell: BaseCell {}
-class BaseCell: UITableViewCell {
-   /**
-    * Init
-    */
-   override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-      super.init(style: style, reuseIdentifier: reuseIdentifier)
-      self.selectionStyle = .none // disables the selection highlighting
-   }
-   /**
-    * Boilerplate
-    */
-   required init?(coder aDecoder: NSCoder) {
-      fatalError("init(coder:) has not been implemented")
-   }
-}
+//class BaseCell: UITableViewCell {
+//   /**
+//    * Init
+//    */
+//   override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+//      super.init(style: style, reuseIdentifier: reuseIdentifier)
+//      self.selectionStyle = .none // disables the selection highlighting
+//   }
+//   /**
+//    * Boilerplate
+//    */
+//   required init?(coder aDecoder: NSCoder) {
+//      fatalError("init(coder:) has not been implemented")
+//   }
+//}

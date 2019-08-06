@@ -13,7 +13,7 @@ class ViewController: UIViewController {
    }
    override func viewDidLoad() {
       super.viewDidLoad()
-      let strings: [String] = (0..<40).map {"Testing \($0)"}
+      let strings: [String] = (0..<40).map { "Testing \($0)" }
       view = TableView(rowData: strings, frame: .zero, style: .plain)
       view.backgroundColor = .blue
    }

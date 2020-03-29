@@ -57,25 +57,9 @@ extension TableView {
 //      let vc = TertiaryDetailVC.init(id: id)
 //      self.navigationController()?.pushViewController(vc, animated: true) // present(navController, animated: true, completion: {Swift.print("completed the transition")})
    }
-//   tableheader
 }
 /**
  * Cell
  */
 class CustomCell: BaseCell {}
 class AnotherCustomCell: BaseCell {}
-//class BaseCell: UITableViewCell {
-//   /**
-//    * Init
-//    */
-//   override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-//      super.init(style: style, reuseIdentifier: reuseIdentifier)
-//      self.selectionStyle = .none // disables the selection highlighting
-//   }
-//   /**
-//    * Boilerplate
-//    */
-//   required init?(coder aDecoder: NSCoder) {
-//      fatalError("init(coder:) has not been implemented")
-//   }
-//}

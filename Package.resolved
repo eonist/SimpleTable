@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CommonCell",
+        "repositoryURL": "https://github.com/eonist/CommonCell.git",
+        "state": {
+          "branch": "master",
+          "revision": "3e3098e4d317efe7c4994960b94074e36da10017",
+          "version": null
+        }
+      },
+      {
+        "package": "Spatial",
+        "repositoryURL": "https://github.com/eonist/Spatial.git",
+        "state": {
+          "branch": "master",
+          "revision": "fb88d01bbec8efd134920ba0f8b4507bf12d6f39",
+          "version": null
+        }
+      },
+      {
+        "package": "With",
+        "repositoryURL": "https://github.com/eonist/With.git",
+        "state": {
+          "branch": "master",
+          "revision": "2eda49a38fc513c9de103afba20db1a2348829d7",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

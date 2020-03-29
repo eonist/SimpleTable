@@ -1,4 +1,5 @@
 import UIKit
+import CommonCell
 /**
  * Cell
  */
@@ -21,7 +22,7 @@ extension TableView {
             cell.backgroundColor = .clear // debug
             return cell as CustomCell
          default:
-            guard let cell:AnotherCustomCell = tableView.dequeueReusableCell(withIdentifier: "\(AnotherCustomCell.self)", for: indexPath as IndexPath) as? AnotherCustomCell else {fatalError("err")}
+            guard let cell: AnotherCustomCell = tableView.dequeueReusableCell(withIdentifier: "\(AnotherCustomCell.self)", for: indexPath as IndexPath) as? AnotherCustomCell else {fatalError("err")}
             cell.textLabel?.text = rowData[indexPath.row]
             cell.backgroundColor = .clear
             return cell as AnotherCustomCell

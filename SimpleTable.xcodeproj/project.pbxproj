@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		9D05887022F98A8800F0A2BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05886C22F98A8800F0A2BE /* ViewController.swift */; };
 		9D05887122F98A8800F0A2BE /* TableView+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05886E22F98A8800F0A2BE /* TableView+Cell.swift */; };
 		9D05887222F98A8800F0A2BE /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D05886F22F98A8800F0A2BE /* TableView.swift */; };
+		F1BDC8D72430F14800421957 /* CommonCell in Frameworks */ = {isa = PBXBuildFile; productRef = F1BDC8D62430F14800421957 /* CommonCell */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BDC8D72430F14800421957 /* CommonCell in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +115,9 @@
 			dependencies = (
 			);
 			name = SimpleTable;
+			packageProductDependencies = (
+				F1BDC8D62430F14800421957 /* CommonCell */,
+			);
 			productName = SimpleTable;
 			productReference = 9D05885622F97CB000F0A2BE /* SimpleTable.app */;
 			productType = "com.apple.product-type.application";
@@ -141,6 +146,9 @@
 				Base,
 			);
 			mainGroup = 9D05884D22F97CB000F0A2BE;
+			packageReferences = (
+				F1BDC8D52430F14800421957 /* XCRemoteSwiftPackageReference "CommonCell" */,
+			);
 			productRefGroup = 9D05885722F97CB000F0A2BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -370,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1BDC8D52430F14800421957 /* XCRemoteSwiftPackageReference "CommonCell" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eonist/CommonCell.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1BDC8D62430F14800421957 /* CommonCell */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1BDC8D52430F14800421957 /* XCRemoteSwiftPackageReference "CommonCell" */;
+			productName = CommonCell;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9D05884E22F97CB000F0A2BE /* Project object */;
 }

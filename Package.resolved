@@ -6,7 +6,16 @@
         "repositoryURL": "https://github.com/eonist/CommonCell.git",
         "state": {
           "branch": "master",
-          "revision": "3e3098e4d317efe7c4994960b94074e36da10017",
+          "revision": "32105655295f2f37ab301fadd06a5d852737e357",
+          "version": null
+        }
+      },
+      {
+        "package": "ReusableCell",
+        "repositoryURL": "https://github.com/eonist/ReusableCell.git",
+        "state": {
+          "branch": "master",
+          "revision": "1892afdc517e4c8fc74e1f97c92b29030f8292bb",
           "version": null
         }
       },
@@ -15,7 +24,7 @@
         "repositoryURL": "https://github.com/eonist/Spatial.git",
         "state": {
           "branch": "master",
-          "revision": "fb88d01bbec8efd134920ba0f8b4507bf12d6f39",
+          "revision": "810bb78b8d6e7f95c8b661eca40873f81e6eeb32",
           "version": null
         }
       },
@@ -24,7 +33,7 @@
         "repositoryURL": "https://github.com/eonist/With.git",
         "state": {
           "branch": "master",
-          "revision": "2eda49a38fc513c9de103afba20db1a2348829d7",
+          "revision": "140cd19586482e8f14a5ce971c675c69f1e4f916",
           "version": null
         }
       }

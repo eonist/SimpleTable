@@ -16,7 +16,7 @@ class TableView: UITableView, UITableViewDelegate, UITableViewDataSource {
       self.dataSource = self
       self.delegate = self
       // UI
-      self.contentInset = .init(top: 0, left: 0, bottom: 0, right: 0)
+      self.contentInset = .zero
       self.scrollIndicatorInsets = self.contentInset
    }
    /**

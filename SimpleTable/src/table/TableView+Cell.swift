@@ -5,12 +5,6 @@ import CommonCell
  */
 extension TableView {
    /**
-    * Returns row count in a section
-    */
-   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-      return rowData.count
-   }
-   /**
     * Creates / Recycles cells
     */
    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -31,35 +25,18 @@ extension TableView {
       return cell
    }
    /**
+    * Returns row count in a section
+    */
+   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+      return rowData.count
+   }
+   /**
     * Returns the height of each cell
     */
    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
       switch indexPath.row {
-      case 0: return 32
-      default: return 32
+      case 0: return CustomCell.height
+      default: return AnotherCustomCell.height
       }
    }
-   /**
-    * Register cells
-    */
-   func registerCells() {
-      self.register(CustomCell.self, forCellReuseIdentifier: "\(CustomCell.self)")
-      self.register(AnotherCustomCell.self, forCellReuseIdentifier: "\(AnotherCustomCell.self)")
-   }
-   /**
-    * When an item is tapped
-    */
-   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-      let id: String = rowData[indexPath.row]
-      _ = id
-      Swift.print("tapped")
-      self.contentOffset.y += 32
-//      let vc = TertiaryDetailVC.init(id: id)
-//      self.navigationController()?.pushViewController(vc, animated: true) // present(navController, animated: true, completion: {Swift.print("completed the transition")})
-   }
 }
-/**
- * Cell
- */
-class CustomCell: BaseCell {}
-class AnotherCustomCell: BaseCell {}

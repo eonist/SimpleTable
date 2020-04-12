@@ -11,12 +11,12 @@ extension TableView {
       let cell: UITableViewCell = {
          switch indexPath.row {
          case 0:
-            guard let cell: CustomCell = tableView.dequeueReusableCell(withIdentifier: "\(CustomCell.self)", for: indexPath as IndexPath) as? CustomCell else {fatalError("err")}
+            guard let cell: CustomCell = tableView.dequeueReusableCell(withIdentifier: "\(CustomCell.self)", for: indexPath) as? CustomCell else {fatalError("err")}
             cell.textLabel?.text = rowData[indexPath.row]
             cell.backgroundColor = .clear // debug
             return cell as CustomCell
          default:
-            guard let cell: AnotherCustomCell = tableView.dequeueReusableCell(withIdentifier: "\(AnotherCustomCell.self)", for: indexPath as IndexPath) as? AnotherCustomCell else {fatalError("err")}
+            guard let cell: AnotherCustomCell = tableView.dequeueReusableCell(withIdentifier: "\(AnotherCustomCell.self)", for: indexPath) as? AnotherCustomCell else {fatalError("err")}
             cell.textLabel?.text = rowData[indexPath.row]
             cell.backgroundColor = .clear
             return cell as AnotherCustomCell

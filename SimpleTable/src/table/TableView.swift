@@ -11,13 +11,7 @@ class TableView: UITableView, UITableViewDelegate, UITableViewDataSource {
       self.rowData = rowData
       super.init(frame: frame, style: style)
       registerCells() // Registers Cell types
-      self.separatorStyle = .none
-      // Delegate
-      self.dataSource = self
-      self.delegate = self
-      // UI
-      self.contentInset = .zero
-      self.scrollIndicatorInsets = self.contentInset
+      configTable() // setup config of table
    }
    /**
     * Boilerplate

@@ -98,8 +98,8 @@
 		9D05886D22F98A8800F0A2BE /* table */ = {
 			isa = PBXGroup;
 			children = (
-				9D05886F22F98A8800F0A2BE /* TableView.swift */,
 				F1FB415424432D1500A433E2 /* cell */,
+				9D05886F22F98A8800F0A2BE /* TableView.swift */,
 				9D05886E22F98A8800F0A2BE /* TableView+Cell.swift */,
 				F1FB415024432C9400A433E2 /* TableView+Config.swift */,
 				F1FB415224432CBD00A433E2 /* TableView+Event.swift */,

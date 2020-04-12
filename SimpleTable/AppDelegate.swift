@@ -12,10 +12,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       _ = window
       return true
    }
+   
 }
-// 🏀
-   // clean up ✅
-   // programmatic code ✅
-   // test
-   // make cell
-   // start adding the pseudo code

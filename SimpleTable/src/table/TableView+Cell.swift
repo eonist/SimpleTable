@@ -8,10 +8,11 @@ extension TableView {
     * Creates / Recycles cells
     */
    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+      Swift.print("indexPath:  \(indexPath)")
       let cell: UITableViewCell = {
          switch indexPath.row {
          case 0:
-            guard let cell: CustomCell = tableView.dequeueReusableCell(withIdentifier: "\(CustomCell.self)", for: indexPath) as? CustomCell else {fatalError("err")}
+            guard let cell: CustomCell = tableView.dequeueReusableCell(withIdentifier: "\(CustomCell.self)", for: indexPath) as? CustomCell else { fatalError("err") }
             cell.textLabel?.text = rowData[indexPath.row]
             cell.backgroundColor = .clear // debug
             return cell as CustomCell

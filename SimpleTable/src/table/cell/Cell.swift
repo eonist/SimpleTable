@@ -1,6 +1,6 @@
 import UIKit
 import CommonCell
-
+import ReusableCell
 /**
  * Cell
  */

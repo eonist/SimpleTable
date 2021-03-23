@@ -9,7 +9,7 @@ extension TableView {
    func registerCells() {
       self.register(CustomCell.self)
       self.register(AnotherCustomCell.self)
-      self.register(types: [CustomCell.self, AnotherCustomCell.self])
+      self.register([CustomCell.self, AnotherCustomCell.self])
    }
    /**
     * Config table
@@ -22,10 +22,5 @@ extension TableView {
       // UI
       self.contentInset = .zero
       self.scrollIndicatorInsets = self.contentInset
-   }
-}
-extension UITableView {
-   public func register<T: UITableViewCell>(types: [T.Type]) where T: ReusableCellKind {
-      types.forEach { register($0.self, forCellReuseIdentifier: $0.defaultReuseIdentifier) }
    }
 }
